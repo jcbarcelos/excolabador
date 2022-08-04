@@ -1,0 +1,25 @@
+{
+  "config": {
+    "imports": {
+      "klabin-react-common-components": {
+        "axios": "^0.19.2",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "moment": "^2.24.0"
+      }
+    }
+  },
+  "create-jar": {
+    "output-dir": "dist",
+    "features": {
+      "js-extender": true,
+      "web-context": "/ex-colaborador-chamado",
+      "localization": "features/localization/Language",
+      "configuration": "features/configuration.json"
+    }
+  },
+  "sources": [
+    "src"
+  ],
+  "dump-report": true
+}
